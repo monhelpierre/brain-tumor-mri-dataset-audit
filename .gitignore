@@ -1,0 +1,9 @@
+# Downloaded datasets and the feature cache (audit.py writes them here)
+data/
+
+# Single-file samples fetched or extracted for the gallery
+results/sample_dl/
+
+__pycache__/
+*.pyc
+.venv/

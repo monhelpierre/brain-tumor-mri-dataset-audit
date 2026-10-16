@@ -1,0 +1,640 @@
+{
+  "ncc_threshold": 0.93,
+  "thumb": 64,
+  "figshare": {
+    "slices": 3064,
+    "pids": 233,
+    "patient_groups": 209,
+    "multi_pid_groups": {
+      "MR026175": [
+        "MR026175C",
+        "MR026175E"
+      ],
+      "MR049104": [
+        "MR049104",
+        "MR049104B"
+      ],
+      "MR049019": [
+        "MR049019C",
+        "MR049019G"
+      ],
+      "MR048944": [
+        "MR048944",
+        "MR048944B"
+      ],
+      "MR048294": [
+        "MR048294",
+        "MR048294B"
+      ],
+      "MR051651": [
+        "MR051651",
+        "MR051651B"
+      ],
+      "MR051644": [
+        "MR051644",
+        "MR051644B",
+        "MR051644C"
+      ],
+      "MR050687": [
+        "MR050687",
+        "MR050687C"
+      ],
+      "MR048994": [
+        "MR048994",
+        "MR048994B"
+      ],
+      "MR051461": [
+        "MR051461",
+        "MR051461B"
+      ],
+      "MR037458": [
+        "MR037458B",
+        "MR037458C"
+      ],
+      "MR039473": [
+        "MR039473",
+        "MR039473B"
+      ],
+      "MR049453": [
+        "MR049453",
+        "MR049453B"
+      ],
+      "MR040240": [
+        "MR040240",
+        "MR040240B",
+        "MR040240C",
+        "MR040240D"
+      ],
+      "MR024780": [
+        "MR024780B",
+        "MR024780D",
+        "MR024780E",
+        "MR024780G"
+      ],
+      "MR029209": [
+        "MR029209E",
+        "MR029209G",
+        "MR029209I"
+      ],
+      "MR053110": [
+        "MR053110B",
+        "MR053110E"
+      ],
+      "MR051796": [
+        "MR051796",
+        "MR051796B"
+      ]
+    },
+    "per_class": {
+      "meningioma": 708,
+      "pituitary": 930,
+      "glioma": 1426
+    }
+  },
+  "corpora": {
+    "Nickparvar-v1": {
+      "images": 7023,
+      "per_split_class": {
+        "test/glioma": 300,
+        "test/meningioma": 306,
+        "test/notumor": 405,
+        "test/pituitary": 300,
+        "train/glioma": 1321,
+        "train/meningioma": 1339,
+        "train/notumor": 1595,
+        "train/pituitary": 1457
+      }
+    },
+    "Nickparvar-v2": {
+      "images": 7200,
+      "per_split_class": {
+        "test/glioma": 400,
+        "test/meningioma": 400,
+        "test/notumor": 400,
+        "test/pituitary": 400,
+        "train/glioma": 1400,
+        "train/meningioma": 1400,
+        "train/notumor": 1400,
+        "train/pituitary": 1400
+      }
+    },
+    "SARTAJ": {
+      "images": 3264,
+      "per_split_class": {
+        "test/glioma": 100,
+        "test/meningioma": 115,
+        "test/notumor": 105,
+        "test/pituitary": 74,
+        "train/glioma": 826,
+        "train/meningioma": 822,
+        "train/notumor": 395,
+        "train/pituitary": 827
+      }
+    },
+    "Br35H": {
+      "images": 3000,
+      "per_split_class": {
+        "all/tumor": 1500,
+        "all/notumor": 1500
+      }
+    },
+    "Navoneel": {
+      "images": 253,
+      "per_split_class": {
+        "all/tumor": 155,
+        "all/notumor": 98
+      }
+    },
+    "Bohaju": {
+      "images": 3762,
+      "per_split_class": {
+        "all/notumor": 2079,
+        "all/tumor": 1683
+      }
+    },
+    "BRISC": {
+      "images": 6000,
+      "per_split_class": {
+        "test/glioma": 254,
+        "test/meningioma": 306,
+        "test/notumor": 140,
+        "test/pituitary": 300,
+        "train/glioma": 1147,
+        "train/meningioma": 1329,
+        "train/notumor": 1067,
+        "train/pituitary": 1457
+      }
+    }
+  },
+  "null": {
+    "cross_raw_pid_best_ncc": {
+      "max": 0.9465008974075317,
+      "p999": 0.9433091878890991,
+      "n_at_or_above_threshold": 13
+    },
+    "cross_patient_best_ncc": {
+      "p50": 0.6819867491722107,
+      "p99": 0.8662638664245605,
+      "p999": 0.915107786655426,
+      "max": 0.9291583299636841,
+      "n_at_or_above_threshold": 0
+    },
+    "same_patient_best_ncc": {
+      "p50": 0.8345918655395508,
+      "max": 0.9513199329376221,
+      "n_at_or_above_threshold": 97
+    },
+    "br35h_notumor_vs_figshare": {
+      "n": 1500,
+      "max": 0.81229567527771,
+      "p999": 0.8069016337394714,
+      "n_at_or_above_threshold": 0
+    }
+  },
+  "orientation": {
+    "Nickparvar-v1": {
+      "matches_any_orientation": 4441,
+      "matches_by_orientation": {
+        "transpose": 1572,
+        "rot270": 2869
+      },
+      "matches_if_only_identity": 0,
+      "matches_if_only_transpose": 1573
+    },
+    "Nickparvar-v2": {
+      "matches_any_orientation": 4554,
+      "matches_by_orientation": {
+        "rot270": 2861,
+        "transpose": 1670,
+        "anti_transpose": 12,
+        "rot90": 11
+      },
+      "matches_if_only_identity": 0,
+      "matches_if_only_transpose": 1671
+    },
+    "SARTAJ": {
+      "matches_any_orientation": 2146,
+      "matches_by_orientation": {
+        "transpose": 2146
+      },
+      "matches_if_only_identity": 0,
+      "matches_if_only_transpose": 2146
+    },
+    "Br35H": {
+      "matches_any_orientation": 2,
+      "matches_by_orientation": {
+        "transpose": 2
+      },
+      "matches_if_only_identity": 0,
+      "matches_if_only_transpose": 2
+    },
+    "Navoneel": {
+      "matches_any_orientation": 0,
+      "matches_by_orientation": {},
+      "matches_if_only_identity": 0,
+      "matches_if_only_transpose": 0
+    },
+    "Bohaju": {
+      "matches_any_orientation": 0,
+      "matches_by_orientation": {},
+      "matches_if_only_identity": 0,
+      "matches_if_only_transpose": 0
+    },
+    "BRISC": {
+      "matches_any_orientation": 4240,
+      "matches_by_orientation": {
+        "transpose": 1553,
+        "rot270": 2687
+      },
+      "matches_if_only_identity": 0,
+      "matches_if_only_transpose": 1554
+    }
+  },
+  "phash_v1_method": {
+    "Nickparvar-v1": {
+      "identity": {
+        "d_le_4": 3,
+        "d_le_6": 26,
+        "d_le_10": 859,
+        "median_nn_distance": 14.0
+      },
+      "transpose": {
+        "d_le_4": 1705,
+        "d_le_6": 1859,
+        "d_le_10": 3741,
+        "median_nn_distance": 10.0
+      }
+    },
+    "Bohaju": {
+      "identity": {
+        "d_le_4": 0,
+        "d_le_6": 0,
+        "d_le_10": 46,
+        "median_nn_distance": 16.0
+      },
+      "transpose": {
+        "d_le_4": 19,
+        "d_le_6": 134,
+        "d_le_10": 1117,
+        "median_nn_distance": 12.0
+      }
+    }
+  },
+  "figshare_provenance": {
+    "Nickparvar-v1": {
+      "from_figshare": 4441,
+      "fraction": 0.6323508472162893,
+      "distinct_figshare_slices": 2892,
+      "distinct_figshare_pids": 233,
+      "distinct_figshare_patient_groups": 209,
+      "tumor_in_lower_band": 80,
+      "by_class": {
+        "glioma": {
+          "n": 1621,
+          "from_figshare": 1510
+        },
+        "meningioma": {
+          "n": 1645,
+          "from_figshare": 1310
+        },
+        "notumor": {
+          "n": 2000,
+          "from_figshare": 0
+        },
+        "pituitary": {
+          "n": 1757,
+          "from_figshare": 1621
+        }
+      },
+      "label_pairs(kaggle<-figshare)": {
+        "glioma<-glioma": 1510,
+        "meningioma<-meningioma": 1310,
+        "pituitary<-pituitary": 1618,
+        "pituitary<-meningioma": 3
+      }
+    },
+    "Nickparvar-v2": {
+      "from_figshare": 4554,
+      "fraction": 0.6325,
+      "distinct_figshare_slices": 2868,
+      "distinct_figshare_pids": 233,
+      "distinct_figshare_patient_groups": 209,
+      "tumor_in_lower_band": 148,
+      "by_class": {
+        "glioma": {
+          "n": 1800,
+          "from_figshare": 1595
+        },
+        "meningioma": {
+          "n": 1800,
+          "from_figshare": 1337
+        },
+        "notumor": {
+          "n": 1800,
+          "from_figshare": 0
+        },
+        "pituitary": {
+          "n": 1800,
+          "from_figshare": 1622
+        }
+      },
+      "label_pairs(kaggle<-figshare)": {
+        "glioma<-glioma": 1595,
+        "meningioma<-meningioma": 1337,
+        "pituitary<-pituitary": 1611,
+        "pituitary<-meningioma": 11
+      }
+    },
+    "SARTAJ": {
+      "from_figshare": 2146,
+      "fraction": 0.6574754901960784,
+      "distinct_figshare_slices": 2093,
+      "distinct_figshare_pids": 225,
+      "distinct_figshare_patient_groups": 202,
+      "tumor_in_lower_band": 46,
+      "by_class": {
+        "glioma": {
+          "n": 926,
+          "from_figshare": 749
+        },
+        "meningioma": {
+          "n": 937,
+          "from_figshare": 637
+        },
+        "notumor": {
+          "n": 500,
+          "from_figshare": 0
+        },
+        "pituitary": {
+          "n": 901,
+          "from_figshare": 760
+        }
+      },
+      "label_pairs(kaggle<-figshare)": {
+        "glioma<-glioma": 749,
+        "pituitary<-meningioma": 12,
+        "meningioma<-meningioma": 637,
+        "pituitary<-pituitary": 748
+      }
+    },
+    "Br35H": {
+      "from_figshare": 2,
+      "fraction": 0.0006666666666666666,
+      "distinct_figshare_slices": 2,
+      "distinct_figshare_pids": 2,
+      "distinct_figshare_patient_groups": 2,
+      "tumor_in_lower_band": 0,
+      "by_class": {
+        "notumor": {
+          "n": 1500,
+          "from_figshare": 0
+        },
+        "tumor": {
+          "n": 1500,
+          "from_figshare": 2
+        }
+      },
+      "label_pairs(kaggle<-figshare)": {
+        "tumor<-glioma": 2
+      }
+    },
+    "Navoneel": {
+      "from_figshare": 0,
+      "fraction": 0.0,
+      "distinct_figshare_slices": 0,
+      "distinct_figshare_pids": 0,
+      "distinct_figshare_patient_groups": 0,
+      "tumor_in_lower_band": 0,
+      "by_class": {
+        "notumor": {
+          "n": 98,
+          "from_figshare": 0
+        },
+        "tumor": {
+          "n": 155,
+          "from_figshare": 0
+        }
+      },
+      "label_pairs(kaggle<-figshare)": {}
+    },
+    "Bohaju": {
+      "from_figshare": 0,
+      "fraction": 0.0,
+      "distinct_figshare_slices": 0,
+      "distinct_figshare_pids": 0,
+      "distinct_figshare_patient_groups": 0,
+      "tumor_in_lower_band": 3,
+      "by_class": {
+        "notumor": {
+          "n": 2079,
+          "from_figshare": 0
+        },
+        "tumor": {
+          "n": 1683,
+          "from_figshare": 0
+        }
+      },
+      "label_pairs(kaggle<-figshare)": {}
+    },
+    "BRISC": {
+      "from_figshare": 4240,
+      "fraction": 0.7066666666666667,
+      "distinct_figshare_slices": 2716,
+      "distinct_figshare_pids": 228,
+      "distinct_figshare_patient_groups": 204,
+      "tumor_in_lower_band": 77,
+      "by_class": {
+        "glioma": {
+          "n": 1401,
+          "from_figshare": 1307
+        },
+        "meningioma": {
+          "n": 1635,
+          "from_figshare": 1312
+        },
+        "notumor": {
+          "n": 1207,
+          "from_figshare": 0
+        },
+        "pituitary": {
+          "n": 1757,
+          "from_figshare": 1621
+        }
+      },
+      "label_pairs(kaggle<-figshare)": {
+        "glioma<-glioma": 1307,
+        "meningioma<-meningioma": 1312,
+        "pituitary<-pituitary": 1618,
+        "pituitary<-meningioma": 3
+      }
+    }
+  },
+  "train_test_leakage": {
+    "Nickparvar-v1": {
+      "test_images": 1311,
+      "test_exact_dup_in_train": 103,
+      "test_near_dup_in_train": 502,
+      "test_near_dup_fraction": 0.38291380625476734,
+      "near_dup_label_conflicts": 0,
+      "near_dup_by_test_class": {
+        "glioma": 8,
+        "meningioma": 112,
+        "notumor": 361,
+        "pituitary": 21
+      },
+      "test_traced_to_figshare": 742,
+      "test_traced_pid_in_train": 742,
+      "test_traced_patient_in_train": 742
+    },
+    "Nickparvar-v2": {
+      "test_images": 1600,
+      "test_exact_dup_in_train": 0,
+      "test_near_dup_in_train": 464,
+      "test_near_dup_fraction": 0.29,
+      "near_dup_label_conflicts": 2,
+      "near_dup_by_test_class": {
+        "glioma": 15,
+        "meningioma": 116,
+        "notumor": 318,
+        "pituitary": 15
+      },
+      "test_traced_to_figshare": 879,
+      "test_traced_pid_in_train": 877,
+      "test_traced_patient_in_train": 877
+    },
+    "SARTAJ": {
+      "test_images": 394,
+      "test_exact_dup_in_train": 88,
+      "test_near_dup_in_train": 257,
+      "test_near_dup_fraction": 0.6522842639593909,
+      "near_dup_label_conflicts": 2,
+      "near_dup_by_test_class": {
+        "glioma": 20,
+        "meningioma": 110,
+        "notumor": 105,
+        "pituitary": 22
+      },
+      "test_traced_to_figshare": 24,
+      "test_traced_pid_in_train": 24,
+      "test_traced_patient_in_train": 24
+    },
+    "BRISC": {
+      "test_images": 1000,
+      "test_exact_dup_in_train": 7,
+      "test_near_dup_in_train": 132,
+      "test_near_dup_fraction": 0.132,
+      "near_dup_label_conflicts": 0,
+      "near_dup_by_test_class": {
+        "glioma": 7,
+        "meningioma": 102,
+        "notumor": 2,
+        "pituitary": 21
+      },
+      "test_traced_to_figshare": 700,
+      "test_traced_pid_in_train": 700,
+      "test_traced_patient_in_train": 700
+    }
+  },
+  "containment": {
+    "Nickparvar-v1": {
+      "_internal_near_dup": 2032,
+      "Nickparvar-v2": 0.98690018510608,
+      "SARTAJ": 0.39498789691015235,
+      "Br35H": 0.2641321372632778,
+      "Navoneel": 0.06421757083867294,
+      "Bohaju": 0.0,
+      "BRISC": 0.7031183255019222,
+      "Figshare": 0.6323508472162893
+    },
+    "Nickparvar-v2": {
+      "Nickparvar-v1": 0.94375,
+      "_internal_near_dup": 1957,
+      "SARTAJ": 0.3938888888888889,
+      "Br35H": 0.2398611111111111,
+      "Navoneel": 0.06208333333333333,
+      "Bohaju": 0.0,
+      "BRISC": 0.6788888888888889,
+      "Figshare": 0.6325
+    },
+    "SARTAJ": {
+      "Nickparvar-v1": 0.7637867647058824,
+      "Nickparvar-v2": 0.8299632352941176,
+      "_internal_near_dup": 796,
+      "Br35H": 0.12285539215686274,
+      "Navoneel": 0.03400735294117647,
+      "Bohaju": 0.0,
+      "BRISC": 0.6375612745098039,
+      "Figshare": 0.6574754901960784
+    },
+    "Br35H": {
+      "Nickparvar-v1": 0.5266666666666666,
+      "Nickparvar-v2": 0.5356666666666666,
+      "SARTAJ": 0.14833333333333334,
+      "_internal_near_dup": 2182,
+      "Navoneel": 0.21033333333333334,
+      "Bohaju": 0.0,
+      "BRISC": 0.034666666666666665,
+      "Figshare": 0.0006666666666666666
+    },
+    "Navoneel": {
+      "Nickparvar-v1": 0.45454545454545453,
+      "Nickparvar-v2": 0.4980237154150198,
+      "SARTAJ": 0.38735177865612647,
+      "Br35H": 0.9802371541501976,
+      "_internal_near_dup": 78,
+      "Bohaju": 0.0,
+      "BRISC": 0.09881422924901186,
+      "Figshare": 0.0
+    },
+    "Bohaju": {
+      "Nickparvar-v1": 0.0,
+      "Nickparvar-v2": 0.0,
+      "SARTAJ": 0.0,
+      "Br35H": 0.0,
+      "Navoneel": 0.0,
+      "_internal_near_dup": 2418,
+      "BRISC": 0.0,
+      "Figshare": 0.0
+    },
+    "BRISC": {
+      "Nickparvar-v1": 0.8131666666666667,
+      "Nickparvar-v2": 0.8026666666666666,
+      "SARTAJ": 0.3348333333333333,
+      "Br35H": 0.019,
+      "Navoneel": 0.0045,
+      "Bohaju": 0.0,
+      "_internal_near_dup": 500,
+      "Figshare": 0.7066666666666667
+    }
+  },
+  "nickparvar_v1_decomposition": {
+    "glioma": {
+      "n": 1621,
+      "Figshare": 1510,
+      "SARTAJ": 195,
+      "Br35H": 1,
+      "none_of_the_three": 100
+    },
+    "meningioma": {
+      "n": 1645,
+      "Figshare": 1310,
+      "SARTAJ": 937,
+      "Br35H": 98,
+      "none_of_the_three": 35
+    },
+    "notumor": {
+      "n": 2000,
+      "Figshare": 0,
+      "SARTAJ": 815,
+      "Br35H": 1756,
+      "none_of_the_three": 0
+    },
+    "pituitary": {
+      "n": 1757,
+      "Figshare": 1621,
+      "SARTAJ": 827,
+      "Br35H": 0,
+      "none_of_the_three": 60
+    }
+  }
+}

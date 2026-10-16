@@ -1,0 +1,8 @@
+numpy
+Pillow
+h5py
+ImageHash
+kagglehub
+matplotlib
+nibabel
+kaggle
