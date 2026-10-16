@@ -115,4 +115,5 @@ Citation details will be added after review.
 
 ## License
 
-Code: MIT. Results files: CC BY 4.0.
+Code: Apache License 2.0 (see `LICENSE`). Results files in `results/`:
+CC BY 4.0.
