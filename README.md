@@ -1,7 +1,7 @@
 # Brain tumor MRI dataset audit
 
-Code and results for the paper *Which brain tumor dataset should you use?
-A provenance and leakage audit of public MRI classification benchmarks*
+Code and results for the paper *Patient-Level Leakage and Cross-Dataset Duplication in Public
+Brain Tumor MRI Benchmarks: A Provenance Audit and Selection Framework*
 (under review).
 
 Most brain tumor MRI classification papers train and test on a few public
